@@ -1,5 +1,7 @@
 import streamlit as st
 import joblib
+import nltk
+nltk.download('punkt')
 
 st.title('Prediksi Sentiment')
 st.subheader('Implementasi Sentiment Analysis Berdasarkan Tweets Masyarakat Terhadap Kinerja Presiden dalam Aspek Penanganan Covid-19')
